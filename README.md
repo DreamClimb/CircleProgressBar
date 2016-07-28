@@ -9,7 +9,7 @@
 3支持设置三层文本的大小与颜色，如上图标题与底部文本为黑色，中间文本为红色<br>
 4支持进度条从任意位置开始显示，为何要支持该功能，是因为在不同的场合，进度条开始显示的位置一般是不同的，如在某些手机助手类下载App的应用中显示下载进度的时候都是从圆环的顶部开始，以顺时针为方向逐渐递增显示，本例的第三个小圆环即是模仿的该场合，而在某些计步器类的app中进度的绘制一般是从左下角开始显示，然后以顺时针为方向达到对称的位置，本例的最后一个大圆环即是模仿的该场合。<br>
 5支持设置部分圆弧，而不是整个圆，如本例的最后一个大圆环的进度条显示效果，因为在某些场合是不需要绘制整个圆的，如在模拟汽车速度表盘的场合。<br>
-6具备较好的自适应能力，即wrap_content参数要能够比较完美的适应用户输入的文本的长度。<br>
+6具备较好的自适应能力，即wrap_content参数能够比较完美的适应用户输入的文本的长度。<br>
 
 <br>博客详细介绍：http://blog.csdn.net/htq__/article/details/52054261
 
@@ -66,7 +66,7 @@ Add the following to your attrs.xml file (in res/values):
 2Add the following code to the root view of your layout:
 <br>xmlns:app="http://schemas.android.com/apk/res/com.htq.circleprogressbar"
 
-3Add the widget code in the appropriate place in your xml file. Here's a sample implementation:
+3Add the widget code in the appropriate place in your xml file. Here's a sample implementation:<br>
 <com.htq.circleprogressbar.libary.CircleProgressBar 
     android:id="@+id/circle_progress_bar"
     android:layout_width="wrap_content"

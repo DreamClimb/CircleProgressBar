@@ -30,7 +30,6 @@ Add the following to your attrs.xml file (in res/values):
         <attr name="progress_color3" format="color"/>
         <attr name="progress_width" format="dimension"/>
          
-       
         <!-- 设置圆环进度条百分比是从低到高显示还是从高到低显示 ，默认从低到高，即从0到100 -->
         <attr name="set_high_to_low" format="boolean"/>
          
@@ -51,16 +50,13 @@ Add the following to your attrs.xml file (in res/values):
         <attr name="top_title_text_size" format="dimension"/>
         <attr name="bottom_content_text_size" format="dimension"/>
         <attr name="current_progress_text_size" format="dimension"/>
-    
         
          <!-- 设置显示圆环的弧度，360度则显示整个圆环-->
         <attr name="sweep_angle" format="integer"/>
         <attr name="start_arc" format="float"/>
         <attr name="end_arc" format="float"/>
        
-
     </declare-styleable>
-    
 </resources>
 
 2Add the following code to the root view of your layout:

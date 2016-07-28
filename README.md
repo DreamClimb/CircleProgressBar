@@ -7,11 +7,14 @@
 1能够支持设置进度条各种属性，如圆环的大小，颜色，进度条的大小，颜色，进度条的颜色支持设置三种颜色来达到渐变色的效果。<br>
 2圆形进度条的内部支持设置三层文本，即上层的标题，如上图的“您的等级超越全国”，中间层的进度值，如上图的“700”，下层的附带内容，如上图的“万的用户”<br>
 3支持设置三层文本的大小与颜色，如上图标题与底部文本为黑色，中间文本为红色<br>
-4支持进度条从任意位置开始显示，为何要支持该功能，是因为在不同的场合，进度条开始显示的位置一般是不同的，如在某些手机助手类下载App的应用中显示下载进度的时候都是从圆环的顶部开始，以顺时针为方向逐渐递增显示，本例的第三个小圆环即是模仿的该场合，但是因为截的动态图上传出错，只能上传几张图片，所以看的不是很清楚，而在某些计步器类的app中进度的绘制一般是从左下角开始显示，然后以顺时针为方向达到对称的位置，本例的最后一个大圆环即是模仿的该场合。<br>
+4支持进度条从任意位置开始显示，为何要支持该功能，是因为在不同的场合，进度条开始显示的位置一般是不同的，如在某些手机助手类下载App的应用中显示下载进度的时候都是从圆环的顶部开始，以顺时针为方向逐渐递增显示，本例的第三个小圆环即是模仿的该场合，而在某些计步器类的app中进度的绘制一般是从左下角开始显示，然后以顺时针为方向达到对称的位置，本例的最后一个大圆环即是模仿的该场合。<br>
 5支持设置部分圆弧，而不是整个圆，如本例的最后一个大圆环的进度条显示效果，因为在某些场合是不需要绘制整个圆的，如在模拟汽车速度表盘的场合。<br>
-6具备极强的自适应能力，即wrap_content参数要能够比较完美的适应用户输入的文本的长度。<br>
+6具备较好的自适应能力，即wrap_content参数要能够比较完美的适应用户输入的文本的长度。<br>
+
+<br>博客详细介绍：http://blog.csdn.net/htq__/article/details/52054261
 
 #如何使用
+
 Add the following to your attrs.xml file (in res/values):
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -64,7 +67,6 @@ Add the following to your attrs.xml file (in res/values):
 <br>xmlns:app="http://schemas.android.com/apk/res/com.htq.circleprogressbar"
 
 3Add the widget code in the appropriate place in your xml file. Here's a sample implementation:
-
 <com.htq.circleprogressbar.libary.CircleProgressBar 
     android:id="@+id/circle_progress_bar"
     android:layout_width="wrap_content"

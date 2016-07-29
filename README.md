@@ -61,7 +61,6 @@ Add the following to your attrs.xml file (in res/values):
 这些属性的使用请参看我的demo  
 
 2Add the following code to the root view of your layout:  
-
 xmlns:app="http://schemas.android.com/apk/res/com.htq.circleprogressbar"
 
 3Add the widget code in the appropriate place in your xml file. Here's a sample implementation:  

@@ -58,11 +58,14 @@ Add the following to your attrs.xml file (in res/values):
        
     </declare-styleable>
 </resources>
+这些属性的使用请参看我的demo  
 
-2Add the following code to the root view of your layout:
-<br>xmlns:app="http://schemas.android.com/apk/res/com.htq.circleprogressbar"
+2Add the following code to the root view of your layout:  
 
-3Add the widget code in the appropriate place in your xml file. Here's a sample implementation:<br>
+xmlns:app="http://schemas.android.com/apk/res/com.htq.circleprogressbar"
+
+3Add the widget code in the appropriate place in your xml file. Here's a sample implementation:  
+
 <com.htq.circleprogressbar.libary.CircleProgressBar 
     android:id="@+id/circle_progress_bar"
     android:layout_width="wrap_content"
